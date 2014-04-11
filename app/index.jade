@@ -5,9 +5,9 @@ html(lang='en')
     title Super Calc
     link(rel='stylesheet', href='css/app.css')
   body
-    h1 Welcome to the Super Calculator!
-
-    table
+    h1#title Welcome to the Super Calculator!
+      div#click Click Me!
+    table#calculator
       tbody
         tr
           td#display(colspan=5) 0
@@ -31,8 +31,8 @@ html(lang='en')
           td.operator.button √
         tr
           td.number.button 0
-          td.number.button .
-          td.button ±
+          td.decimal.button .
+          td.sign.button +-
           td.operator.button ÷
           td.operator.button !
         tr
