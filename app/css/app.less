@@ -1,17 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Oregano);
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 @import url(http://fonts.googleapis.com/css?family=Cousine);
 
-h1 {
+body {
+  background-image: url('../media/pixel_weave.png');
+}
+
+#navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 
-#click {
+li {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
-  border: 2px double black;
-  border-radius: 60px;
-  width: 130px;
-  margin: 10px auto;
-  padding: 6px;
+  letter-spacing: 2px;
+  display: inline;
+  background-color: #7E807F;
+  padding: 3px 12px;
+  border: 1px solid #505251;
+  border-radius: 10px;
+  margin: 6px;
+  box-shadow: 1px 1px #7E807F;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navlinks:hover {
+  text-decoration: underline;
+  color: #008187;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Oregano', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #F66C5D;
+  text-shadow: 3px 2px #B24943;
+  margin-bottom: 100px;
+}
+
+h1:hover {
+  text-decoration: underline;
+  background-color: #D2D6D4;
+  border-radius: 10px;
 }
 
 #display {
@@ -21,7 +60,8 @@ h1 {
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
-  background-color: #FFFFFF;
+  background-color: #D2D6D4;
+  box-shadow: 1px 1px black;
 }
 
 .button {
@@ -31,6 +71,7 @@ h1 {
   text-align: center;
   width: 25px;
   font-family: 'Cousine', ;
+  box-shadow: 1px 1px black;
 }
 
 table {
