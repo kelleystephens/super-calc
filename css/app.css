@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Oregano);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(http://fonts.googleapis.com/css?family=Cousine);
+body {
+  background-image: url('../media/pixel_weave.png');
+}
+#navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+li {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: inline;
+  background-color: #7E807F;
+  padding: 3px 12px;
+  border: 1px solid #505251;
+  border-radius: 10px;
+  margin: 6px;
+  box-shadow: 1px 1px #7E807F;
+}
+.navlinks {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navlinks:hover {
+  text-decoration: underline;
+  color: #008187;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Oregano', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #F66C5D;
+  text-shadow: 3px 2px #B24943;
+  margin-bottom: 100px;
+}
+h1:hover {
+  background-color: #D2D6D4;
+  border-radius: 10px;
+}
+#display {
+  font-family: 'Share Tech Mono';
+  text-align: right;
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #D2D6D4;
+  box-shadow: 1px 1px black;
+}
+.button {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 25px;
+  font-family: 'Cousine';
+  box-shadow: 1px 1px black;
+}
+table {
+  border-spacing: 9px;
+  border-collapse: separate;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+  background-color: #66D7DC;
+  margin: auto;
+}
+.number,
+.decimal {
+  color: white;
+  background-color: #008187;
+}
+.operator,
+.sign {
+  color: white;
+  background-color: #00A7B0;
+}
+.clear {
+  color: white;
+  background-color: #F66C5D;
+}
+#push {
+  color: white;
+  background-color: #F66C5D;
+}
+.hide {
+  visibility: hidden;
+}
+#queue {
+  font-family: 'Share Tech Mono';
+  color: white;
+  background-color: #F66C5D;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 242px;
+  margin: 10px auto;
+  box-shadow: 1px 1px #B24943;
+}
